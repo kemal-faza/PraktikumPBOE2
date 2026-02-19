@@ -14,11 +14,13 @@ public class App {
         int umur = 20;
         double ipk = 3.75;
         boolean mahasiswaAktif = true;
+
         // Menampilkan variable
         System.out.println("Nama: " + nama);
         System.out.println("Umur: " + umur);
         System.out.println("IPK: " + ipk);
         System.out.println("Status: " + (mahasiswaAktif ? "Aktif" : "Tidak Aktif"));
+
         // Conditional if-else untuk menentukan predikat
         System.out.print("Predikat: ");
         if (ipk >= 3.50) {
@@ -30,6 +32,7 @@ public class App {
         } else {
             System.out.println("Perlu Peningkatan");
         }
+
         // Conditional untuk kategori umur
         System.out.print("Kategori: ");
         if (umur < 17) {
@@ -53,6 +56,7 @@ public class App {
             System.out.println((i + 1) + ". " +
                     mataKuliah[i] + ": " + nilaiUjian[i]);
         }
+
         // Menghitung total dan rata-rata menggunakan for-each loop
         int total = 0;
         for (int nilai : nilaiUjian) {
@@ -62,6 +66,7 @@ public class App {
                 nilaiUjian.length;
         System.out.println("\nTotal Nilai: " + total);
         System.out.println("Rata-rata: " + rataRata);
+
         // Mencari nilai tertinggi dan terendah dengan while loop
         int tertinggi = nilaiUjian[0];
         int terendah = nilaiUjian[0];
@@ -78,6 +83,7 @@ public class App {
         System.out.println("Nilai Tertinggi: " +
                 tertinggi);
         System.out.println("Nilai Terendah: " + terendah);
+
         // Menghitung jumlah nilai yang lulus (>=75) dengan do-while
         int jumlahLulus = 0;
         int idx = 0;
