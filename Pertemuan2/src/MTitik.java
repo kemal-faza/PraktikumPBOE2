@@ -7,6 +7,7 @@
 public class MTitik {
     public static void main(String[] args) {
         Titik T1 = new Titik(); // Membuat objek titik T1 (0,0)
+        Titik T2 = new Titik(3, 5); // Membuat objek titik T2 (3,5)
 
         T1.setAbsis(3); // Mengubah absis T1 dengan nilai 3
         T1.setOrdinat(4); // Mengubah ordinat T1 dengan nilai 4

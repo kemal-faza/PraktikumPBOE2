@@ -8,13 +8,20 @@ public class Titik {
     /**************** ATRIBUT ******************/
     double absis;
     double ordinat;
+    static int counterTitik = 0;
 
     /**************** METHOD ******************/
 
     // Konstruktor untuk membuat titik (0,0)
+    Titik(double absis, double ordinat) {
+        this.absis = absis;
+        this.ordinat = ordinat;
+        counterTitik++;
+    }
+
     Titik() {
-        absis = 0;
-        ordinat = 0;
+        this(0, 0);
+        counterTitik++;
     }
 
     // Mengembalikan nilai absis
@@ -47,4 +54,15 @@ public class Titik {
     void printTitik() {
         System.out.println("Titik (" + absis + "," + ordinat + ")");
     }
+
+    // mengembalikan nilai counterTitik
+    static int getCounterTitik() {
+        return counterTitik;
+    }
+
+    void printCounterTitik() {
+        // System.out.println(this.counterTitik);
+        System.out.println(counterTitik);
+    }
+
 } // end class Titik
