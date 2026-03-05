@@ -13,6 +13,10 @@ public class Mahasiswa {
         this.listMatkul = new ArrayList<>();
     }
 
+    public Mahasiswa() {
+        this("", "", "");
+    }
+
     public String getNIM() {
         return this.nim;
     }
