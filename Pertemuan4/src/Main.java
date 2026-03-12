@@ -1,6 +1,6 @@
 /**
- * File : BangunDatar.java
- * Deskripsi : Class Parent untuk semua bangun datar
+ * File : Main.java
+ * Deskripsi : Class utama (main) untuk menjalankan semua class
  * Nama : Muhamad Kemal Faza
  * Tanggal : 12 Maret 2026
  */
