@@ -1,23 +1,24 @@
-package kuliah3.src;
+import java.time.LocalDate;
 
-public class DosenTetap extends Dosen {
-    protected String nidn;
-    protected static int bup = 65;
-    protected static double persenTunjangan = 2;
+public class DosenTamu extends Dosen {
+    protected String nidk;
+    protected LocalDate tanggalBerakhirKontrak;
+    protected static double persenTunjangan = 2.5;
 
-    public DosenTetap(String nip, String nama, String tanggalLahir, String tmt, int gajiPokok, String fakultas,
-            String nidn) {
-        super(nip, nama, tanggalLahir, tmt, gajiPokok, fakultas);
-        this.nidn = nidn;
+    public DosenTamu(String nip, String nama, String tanggalLahir, String tmt, int gajiPokok, String nidk,
+            String tanggalBerakhirKontrak) {
+        super(nip, nama, tanggalLahir, tmt, gajiPokok, nidk);
+        this.nidk = nidk;
+        this.tanggalBerakhirKontrak = LocalDate.parse(tanggalBerakhirKontrak);
     }
 
     public double getTunjangan() {
-        return (persenTunjangan / 100) * getMasaKerja().getYears() * gajiPokok;
+        return (persenTunjangan / 100) * gajiPokok;
     }
 
     public void printInfo() {
         System.out.println("NIP: " + nip);
-        System.out.println("NIDN: " + nidn);
+        System.out.println("NIDK: " + nidk);
         System.out.println("Nama: " + nama);
         System.out.println("Tanggal Lahir: " + getIdDateFormat(tanggalLahir));
         System.out.println("TMT: " + getIdDateFormat(tmt));
@@ -25,7 +26,7 @@ public class DosenTetap extends Dosen {
         System.out.println("Fakultas: " + fakultas);
         System.out.println(
                 "Masa Kerja: " + getMasaKerja().getYears() + " tahun " + getMasaKerja().getMonths() + " bulan");
-        System.out.println("Tanggal Pensiun: " + getTanggalPensiun(bup));
+        System.out.println("Tanggal Berakhir Kontrak: " + getIdDateFormat(this.tanggalBerakhirKontrak));
         System.out.println("Gaji Pokok: " + getCurrencyIdFormat(gajiPokok));
         System.out.println(persenTunjangan + "% x " + getMasaKerja().getYears() + " x " + getCurrencyIdFormat(gajiPokok)
                 + " = " + getCurrencyIdFormat(getTunjangan()));
