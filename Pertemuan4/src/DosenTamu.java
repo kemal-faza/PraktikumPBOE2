@@ -1,3 +1,11 @@
+
+/**
+ * File : DosenTamu.java
+ * Deskripsi : Class untuk Dosen tamu yang merupakan anak dari class Dosen
+ * Nama : Muhamad Kemal Faza
+ * Tanggal : 12 Maret 2026
+ */
+
 import java.time.LocalDate;
 
 public class DosenTamu extends Dosen {

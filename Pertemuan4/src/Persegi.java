@@ -1,3 +1,10 @@
+/**
+ * File : Persegi.java
+ * Deskripsi : Class untuk bangun datar persegi
+ * Nama : Muhamad Kemal Faza
+ * Tanggal : 12 Maret 2026
+ */
+
 public class Persegi extends BangunDatar {
     private double sisi;
 
