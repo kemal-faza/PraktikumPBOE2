@@ -1,3 +1,10 @@
+/**
+ * File : Tendik.java
+ * Deskripsi : Class untuk tenaga kependidikan
+ * Nama : Muhamad Kemal Faza
+ * Tanggal : 12 Maret 2026
+ */
+
 public class Tendik extends Pegawai {
     private enum typeBidang {
         AKADEMIK, KEMAHASISWAAN, SUMBER_DAYA

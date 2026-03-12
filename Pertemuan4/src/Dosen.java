@@ -1,3 +1,10 @@
+/**
+ * File : Dosen.java
+ * Deskripsi : Class untuk Dosen yang extend ke class parent Pegawai
+ * Nama : Muhamad Kemal Faza
+ * Tanggal : 12 Maret 2026
+ */
+
 public abstract class Dosen extends Pegawai {
     protected String fakultas;
 

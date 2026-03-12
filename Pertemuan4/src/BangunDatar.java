@@ -1,3 +1,10 @@
+/**
+ * File : BangunDatar.java
+ * Deskripsi : Class Parent untuk semua bangun datar
+ * Nama : Muhamad Kemal Faza
+ * Tanggal : 12 Maret 2026
+ */
+
 public class BangunDatar {
     protected int jmlSisi;
     protected String warna;

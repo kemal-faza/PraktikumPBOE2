@@ -1,3 +1,10 @@
+/**
+ * File : DosenTetap.java
+ * Deskripsi : Class untuk dosen tetap yamg merupakan anak dari class Dosen
+ * Nama : Muhamad Kemal Faza
+ * Tanggal : 12 Maret 2026
+ */
+
 public class DosenTetap extends Dosen {
     protected String nidn;
     protected static int bup = 65;

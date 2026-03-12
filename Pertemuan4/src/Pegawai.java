@@ -1,3 +1,11 @@
+
+/**
+ * File : Pegawai.java
+ * Deskripsi : Class Parent untuk pegawai
+ * Nama : Muhamad Kemal Faza
+ * Tanggal : 12 Maret 2026
+ */
+
 import java.text.NumberFormat;
 import java.time.LocalDate;
 import java.time.Period;
