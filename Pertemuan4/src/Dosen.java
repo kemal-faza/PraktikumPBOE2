@@ -1,5 +1,3 @@
-package kuliah3.src;
-
 public abstract class Dosen extends Pegawai {
     protected String fakultas;
 

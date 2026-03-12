@@ -1,5 +1,3 @@
-package kuliah3.src;
-
 public class DosenTetap extends Dosen {
     protected String nidn;
     protected static int bup = 65;
