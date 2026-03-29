@@ -1,7 +1,7 @@
 package pbo_kelompok.src;
 
 public class PaymentFailedException extends Exception {
-    public PaymentFailedException(String message) {
-        super(message);
+    public PaymentFailedException() {
+        super("Pembayaran gagal dilakukan, silahkan coba kembali.");
     }
 }

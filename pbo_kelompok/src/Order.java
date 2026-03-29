@@ -54,12 +54,8 @@ public class Order {
     public void checkout() throws PaymentFailedException {
         calculateTotal();
 
-        if (total <= 0) {
-            throw new PaymentFailedException("Total pesanan tidak valid");
-        }
-
         if (!paymentMethod.processPayment(total)) {
-            throw new PaymentFailedException("Pembayaran gagal");
+            throw new PaymentFailedException();
         }
 
         status = "PAID";

@@ -18,10 +18,9 @@ public class PhysicalProduct extends Product {
     }
 
     public void reduceStock(int quantity) {
-        if (quantity > 0 && this.stock >= quantity) {
-            this.stock -= quantity;
-            return;
-        }
+        assert (quantity > 0 && this.stock >= quantity) : "Kuantitas tidak valid";
+        this.stock -= quantity;
+        return;
 
     }
 
