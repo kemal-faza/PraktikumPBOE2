@@ -1,3 +1,8 @@
+/* NIM  : 24060124120013
+   Nama : Muhamad Kemal Faza
+   Tanggal  : 27 April 2026
+*/
+
 public class Seminar {
     private int banyakPeserta;
     private int kapasitas = 100; // Kapasitas maksimal sesuai instruksi soal
