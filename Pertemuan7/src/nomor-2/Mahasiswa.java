@@ -3,6 +3,7 @@
    Tanggal  : 27 April 2026
 */
 
+
 // 2a. Realisasi kelas
 public class Mahasiswa {
     private String nim, nama, programStudi;

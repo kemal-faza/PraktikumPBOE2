@@ -3,6 +3,7 @@
    Tanggal  : 27 April 2026
 */
 
+
 public class MMahasiswa {
     public static void main(String[] args) {
         // 2c. Aplikasi Konstruktor Tanpa Parameter

@@ -3,6 +3,7 @@
    Tanggal  : 27 April 2026
 */
 
+
 public class Dosen extends CivitasAkademika {
     private String nip;
 

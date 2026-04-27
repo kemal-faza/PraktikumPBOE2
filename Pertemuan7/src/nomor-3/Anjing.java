@@ -3,6 +3,7 @@
    Tanggal  : 27 April 2026
 */
 
+
 // 3. Realisasi subkelas Anjing
 public class Anjing extends Anabul {
     public Anjing(String nama) {

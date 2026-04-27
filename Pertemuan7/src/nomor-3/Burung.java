@@ -3,6 +3,7 @@
    Tanggal  : 27 April 2026
 */
 
+
 // 3. Realisasi subkelas Burung
 public class Burung extends Anabul {
     public Burung(String nama) {

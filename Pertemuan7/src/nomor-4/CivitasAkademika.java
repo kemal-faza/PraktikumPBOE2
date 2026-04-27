@@ -3,6 +3,7 @@
    Tanggal  : 27 April 2026
 */
 
+
 public abstract class CivitasAkademika {
     private String nama;
 
