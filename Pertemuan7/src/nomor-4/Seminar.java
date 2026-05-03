@@ -3,10 +3,9 @@
    Tanggal  : 27 April 2026
 */
 
-
 public class Seminar {
     private int banyakPeserta;
-    private int kapasitas = 100; // Kapasitas maksimal sesuai instruksi soal
+    private int kapasitas = 100;
     private CivitasAkademika[] pesertas;
 
     public Seminar() {
