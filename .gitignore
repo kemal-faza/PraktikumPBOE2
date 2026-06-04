@@ -7,3 +7,10 @@
 /jdbc_mhs_service/build/
 /jdbc_mhs_service/dist/
 project
+/PBO11A_24060124120013/target/
+/jdbc_mhs_service_GUI/nbproject/private/
+/jdbc_mhs_service_GUI/build/
+/jdbc_mhs_service_GUI/dist/
+/jdbc_mhs_service_GUI/nbproject/build-impl.xml
+/jdbc_mhs_service_GUI/nbproject/genfiles.properties
+/jdbc_mhs_service_GUI/.antigravitycli/
